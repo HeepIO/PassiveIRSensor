@@ -19,7 +19,7 @@ void setup()
   Serial.begin(115200);
   InitializeControlHardware();
   AddOnOffControl("IRSense",HEEP_OUTPUT,0);
-  StartHeep("PassiveIR", 7);
+  StartHeep(heepDeviceName, 7);
 
 }
 
